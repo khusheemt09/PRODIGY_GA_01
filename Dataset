@@ -1,0 +1,14 @@
+DATASET USED:
+
+texts = [
+    "Artificial intelligence is transforming industries worldwide.",
+    "Robots are now capable of performing complex surgical procedures.",
+    "Machine learning models learn patterns from historical data.",
+    "Ethical considerations in AI development are crucial for the future.",
+    "The integration of AI in education is creating personalized learning.",
+    "Generative AI can produce art, music, and human-like conversations.",
+    "AI-powered robots are revolutionizing manufacturing and logistics.",
+    "Training deep learning models requires powerful GPUs and large datasets.",
+    "Explainable AI helps users understand model predictions.",
+    "Human-AI collaboration will shape the next era of innovation."
+]
