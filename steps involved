@@ -1,0 +1,42 @@
+STEPS INVOLVED : 
+
+1. Set Up Your Environment
+Install required Python libraries like transformers, datasets, torch.
+
+Make sure your Python environment (Colab, VS Code, etc.) is properly configured.
+
+2. Prepare a Custom Dataset
+Create a dataset with sentences or paragraphs related to AI, robots, machine learning, or Gen AI.
+
+Format the data into a simple list or table where each row is a training sentence.
+
+3. Load Pre-trained GPT-2
+Use the Hugging Face library to load the GPT-2 model and tokenizer.
+
+The model is pre-trained on general text, and you'll fine-tune it for your custom domain.
+
+4. Tokenize Your Dataset
+Convert the text into numerical format (input IDs and attention masks) using the tokenizer.
+
+Ensure the data is padded or truncated to a fixed length for model compatibility.
+
+5. Fine-Tune the Model
+Define training parameters like batch size, number of epochs, and logging steps.
+
+Use a Trainer to train the model on your dataset so it learns your dataset’s style and context.
+
+6. Generate Text with the Trained Model
+Accept a custom prompt as input.
+
+Generate extended, coherent text based on that prompt using the fine-tuned model.
+
+7. Evaluate the Output
+Read the generated text and observe whether it follows the style and theme of your dataset.
+
+Experiment with different prompts and generation settings to improve results.
+
+8. Optional: Save and Share
+Save your fine-tuned model.
+
+Upload your project to GitHub with a clear description and README.
+
